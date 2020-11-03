@@ -28,11 +28,25 @@ h1 span {
   font-weight: bold;
 }
 
+h3 {
+  font-weight: normal;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+.profissao {
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.6);
   margin-top: 10px;
+}
+
+.t60 {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -46,4 +60,47 @@ header {
 
 .dados {
   display: inline-block;
+}
+
+main {
+  padding: 40px 70px;
+}
+
+.coluna-menor {
+  margin-top: 64px;
+}
+
+.linha {
+  width: 90px;
+  border-top: 2px solid;
+  margin-top: 8px;
+}
+
+.experiencias .linha {
+  border-color: #4200ff;
+}
+
+.coluna-menor h2 {
+  margin-top: 40px;
+}
+
+.coluna-menor img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.conteudo {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.coluna-menor li {
+  margin-top: 32px;
 }
