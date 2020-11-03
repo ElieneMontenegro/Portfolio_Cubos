@@ -28,6 +28,10 @@ h1 span {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 h3 {
   font-weight: normal;
   font-family: "Playfair Display", serif;
@@ -64,14 +68,16 @@ header {
 
 main {
   padding: 40px 70px;
+  display: flex;
 }
 
 .coluna-menor {
   margin-top: 64px;
+  width: 260px;
 }
 
 .linha {
-  width: 90px;
+  width: 80px;
   border-top: 2px solid;
   margin-top: 8px;
 }
@@ -103,4 +109,58 @@ ol {
 
 .coluna-menor li {
   margin-top: 32px;
+  display: flex;
+}
+
+.coluna-maior {
+  margin-left: 24px;
+}
+
+.habilidades h2 {
+  font-size: 36px;
+  margin-left: 12px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 22px 12px;
+  width: 250px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra {
+  width: 20%;
+  height: 4px;
+  background-color: rgb(39, 39, 177);
+  margin-top: 8px;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.card li {
+  margin-top: 22px;
+  margin-bottom: 28px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
 }
